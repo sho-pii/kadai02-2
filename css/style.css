@@ -1,0 +1,64 @@
+body {
+  background-image: -webkit-linear-gradient(transparent 80%, rgba(255, 255, 255, 0.3) 80%, rgba(255, 255, 255, 0.3) 100%),
+                    -webkit-linear-gradient(0deg, transparent 80%,rgba(255, 255, 255, 0.3) 80%, rgba(255, 255, 255, 0.3) 100%);
+  background-image: linear-gradient(transparent 80%, rgba(255, 255, 255, 0.3) 80%, rgba(255, 255, 255, 0.3) 100%),
+                    liner-gradient(90deg, transparent 80%, rgba(255, 255, 255, 0.3) 80%, rgba(255, 255, 255, 0.3) 100%);
+  background-color: rgb(245, 139, 139);
+  -webkit-background-size: 40px 40px;
+  background-size: 40px 40px;
+}
+
+.box {
+  text-align: center;
+  background-color: #fff;
+  max-width: 80%;
+  width: 800px;
+  margin: -30px auto;
+  height: 800px;
+}
+
+h1 {
+  padding-top: 50px;
+}
+.osara {
+  margin: 30px auto;
+  display: block;
+}
+
+.btn {
+  width: 200px;
+  height: 80px;
+  margin: 40px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  border: none;
+  background-color: #c2bfbf;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  opacity: 0.7;
+}
+.images {
+  margin: 20px;
+}
+
+img {
+  width: 300px;
+  height: 250px;
+  object-fit: contain;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.aa {
+  background-color: rgb(255, 79, 79);
+  font-weight: bold;
+}
+
+.bb {
+  background-color: rgb(79, 176, 255);
+  font-weight: bold;
+}
